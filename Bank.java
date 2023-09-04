@@ -22,7 +22,8 @@ public class Bank {
         if (kunde.getGiro().geldAbheben(menge) && automat.geldAuszahlen((int) menge, kunde)) {
             return;
         }
-        kunde.getGiro().
+        kunde.getGiro();
+        return;
         // menge die abgebucht werden soll
         // geld vom automaten
         // methode von kunde
