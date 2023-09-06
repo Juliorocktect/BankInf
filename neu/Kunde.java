@@ -2,7 +2,7 @@ class Kunde{
 private String vorname,name,addresse;
 private int kundenNummer, gebDatum;
 
-public Kunde(String vorname, String addresse,int kundenNummer,int gebDatum)
+public Kunde(String vorname,String name, String addresse,int kundenNummer,int gebDatum)
 {
     this.vorname = vorname;
     this.name = name;
